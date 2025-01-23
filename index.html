@@ -1,0 +1,63 @@
+<html>
+	<head>
+	<title>Подробнее</title>
+	<link rel="website icon" type="jpg"href="icon.jpg">
+	</head>
+	<body background="fon.jpg">
+		<style>
+			h1{
+				color:#9B3300;
+				text-align:center;
+				border: 7px solid yellow;
+				background: #67839B;
+				border-radius: 30px;
+			}
+			body{
+				background-repeat: no-repeat;
+				background-size:cover;
+			}
+			img{
+				border-radius:30px;
+				display: flex;
+				gap: 5px;
+				border: 5px solid red;
+				filter: grayscale(100%);
+				transition: all 1s;
+				width:95%;
+				
+				
+			}
+			img:hover{
+				filter: grayscale(0%);
+				transform:scale(1.4) rotate(12deg);
+			}
+			.gallery1{
+				display:flex;
+				gap: 1rem;
+			}
+			.gallery1>div{
+				flex:1;
+				overflow: hidden;
+				border-radius: 1rem;
+			}
+			div{
+			right:10px;
+			}
+		</style>
+		<center>
+			<table border="17" cellpadding="30">
+				<tr><!-- bloki 1-->
+					<td colspan="2">
+						<img class="s1" src="photo_21_2023-11-22_12-16-10.jpg" width="100px">
+					</td>
+					<td colspan="2">
+						<img class="s1" src="photo_13_2023-11-22_12-16-10.jpg" width="800px">
+					</td>
+					<td colspan="2">
+						<img class="s1" src="photo_18_2023-11-22_12-16-10.jpg" width="800px">
+					</td>
+				</tr>
+			</table>
+		</center>
+	</body>
+</html>
